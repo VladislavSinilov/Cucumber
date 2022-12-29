@@ -1,7 +1,7 @@
 package steps;
 
 import container.DataContainer;
-import cucumber.api.java.ru.Дано;
+import io.cucumber.java.ru.Дано;
 
 public class VariablesSteps {
 
