@@ -4,14 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DataContainer {
-
     private Map<String, String> container = new HashMap<>();
-
 
     public void storeVariable(String varName, String text){
         container.put(varName, text);
     }
-
     public String resolveVariable(String varNameOrText){
         if(varNameOrText.startsWith("@")){
             if(container.containsKey(varNameOrText)){
@@ -22,8 +19,4 @@ public class DataContainer {
         }
       else return varNameOrText;
     }
-
- //   picocontainer - почитать
-
-
 }

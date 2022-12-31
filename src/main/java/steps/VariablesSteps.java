@@ -12,8 +12,7 @@ public class VariablesSteps {
     }
     @Дано("^получить значение переменной '(.*)'$")
     public void getVariableValue(String varName) {
-        String v = dataContainer.resolveVariable(varName);
-        System.out.println(v);
+        var v = dataContainer.resolveVariable(varName);
     }
 
     @Дано("^сохранить ответ в переменную '(.*)' значение:$")
