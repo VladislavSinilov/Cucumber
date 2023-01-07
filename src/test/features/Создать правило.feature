@@ -39,4 +39,4 @@
       | header Authorization | @JWT_RESPONSE                                                               |
       | JSON                 | @REQUEST                                                                    |
 
-
+    Также установить соединение с БД 'INTR_DB'
